@@ -1,0 +1,16 @@
+Andres E. Requena G/
+72346798E
+Programacion Web II
+
+Ambos, ref y reactive sirven para definir datos reactivos para utilizar en los componentes.
+La diferencia principal esta en como manejan sus propios datos.
+Por un lado, ref permite manejar valores primitivos, null, undefined, y objetos.
+Debido a que ref es especialmente bueno manejando y reasignando valores a una referencia entera, este
+debería utilizarse para valores simples.
+Por el otro lado, reactive maneja objetos que contengan muchas propiedades reactivas.
+Ya que se pueden reasignar los valores de las propiedades independientemente, el uso de reactive
+promueve la idea de mantener una única referencia.
+
+En conclusión, es beneficioso utilizar ref cuando se trate con valores simples, mientras que
+utilizar reactive es mejor en casos donde se manejen objetos complejos con una gran cantidad de
+propiedades.
